@@ -67,7 +67,7 @@ db.on('connect', function() {
 });
 
 server = server.listen(3000, function () {
-    console.log("Our API is running on port ", server.address().port);
+    console.log("Our API is running on port number ", server.address().port);
 });
 
 
